@@ -1,0 +1,10 @@
+
+twilio:
+  account-sid: --input your accoount-sid here--
+  auth-token: -- input your auth-token here
+  phone-numbers:
+    from:whatsapp: --input the twilio whatsapp number--
+    to: whatsapp:-- input the whatsapp number to recieve the message--
+  message-template:
+    body: "Hello my Name is Richard"
+    parameters: '{"1":"12/1","2":"3pm"}'
